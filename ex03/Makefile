@@ -6,7 +6,7 @@ NAME	= ex03
 
 CC		= c++
 
-FLAGS	= -Wall -Wextra -Werror -std=c++98
+FLAGS	= -Wall -Wextra -Werror -g -std=c++98 -fsanitize=address
 
 all: $(NAME)
 
